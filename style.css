@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Germania One', cursive;
+    font-size:18px;
+    max-width: 990px;
+    margin: 0 auto;
+    float:none;
+}
+.background-top{
+        background-image: url(/img/background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: block;
+        justify-content: center;
+        width: 990px;
+}
+#judul h1 {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-bottom: 400px;
+}
+.kare img{
+    max-width: 280px;
+    margin-left: 18px;
+    margin-right: 10px;
+    width:315px;
+    margin-bottom:0px;
+}
+.ramen img{
+    max-width: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width:315px;
+    margin-bottom:10px;
+}
+.hatsumabusi img{
+    max-width: 300px;
+    margin-left: 15px;
+    margin-right: 10px;
+    width:315px;
+    margin-bottom:10px;
+}
+.bottom img{
+    padding:11px;
+    margin-left: 20px;
+    margin-bottom:10px;
+}
