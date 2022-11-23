@@ -9,44 +9,90 @@ body{
     max-width: 990px;
     margin: 0 auto;
     float:none;
+
 }
-.background-top{
-        background-image: url(/img/background.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: block;
-        justify-content: center;
-        width: 990px;
+#background-top{
+    background-image: url(img/background-top.png);
+    max-width: 990px; min-width: 990px;
+    max-height: 4000px; min-height: 4000px;
+    background-repeat: no-repeat;
 }
-#judul h1 {
-    text-align: center;
-    margin-top: 0px;
-    padding-top: 100px;
-    padding-bottom: 400px;
+.banner-top img{
+    background-position: center;
+    padding: 100px 80px 100px 70px;
+    margin-top: 90px;
+    margin-bottom: 60px;
 }
+.banner-top{
+    background-image: url(img/banner-top.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+}
+.banner-top-img-aki{
+    padding: 100px;
+}
+#menu{
+    width: 990px;
+}
+
 .kare img{
     max-width: 280px;
     margin-left: 18px;
     margin-right: 10px;
     width:315px;
-    margin-bottom:0px;
+    margin-bottom :8px;
 }
 .ramen img{
     max-width: 280px;
     margin-left: 10px;
     margin-right: 10px;
     width:315px;
-    margin-bottom:10px;
+    margin-bottom: 9px;
 }
 .hatsumabusi img{
     max-width: 300px;
-    margin-left: 15px;
+    margin-left: 34px;
     margin-right: 10px;
-    width:315px;
-    margin-bottom:10px;
+    width: 315px;
+    margin-bottom: 20px;
 }
 .bottom img{
     padding:11px;
     margin-left: 20px;
     margin-bottom:10px;
+}
+.block-menu1{
+    background-image: url(img/block2.png);
+    background-size: cover;
+    max-width: 990px;
+    height: 820px;
+    margin: auto;
+}
+.block-menu2{
+    background-image: url(img/block3.png);
+    background-size: 1010;
+    max-width: 990px;
+    height: 928px;
+    margin: auto;
+    margin-left: -1px;
+}
+.block-menu3{
+    background-image: url(img/block4.png);
+    background-size: 1010px;
+    max-width: 990px;
+    height: 910px;
+    margin: auto;
+}
+#menu-makanan{
+    max-width: 990px;
+}
+.kare2 img{
+    max-width: 280px;
+    padding:30px;
+    margin-top:255px;
+    margin-left:20px;
+}
+.kare-t img{
+   
 }
