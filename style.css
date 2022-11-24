@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
+
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
 }
 body{
-    font-family: 'Germania One', cursive;
+    font-family: 'Noto Serif JP', serif;
     font-size:18px;
     max-width: 990px;
     margin: 0 auto;
     float:none;
+    height: auto;
 
 }
 #background-top{
@@ -32,75 +35,147 @@ body{
 .banner-top-img-aki{
     padding: 100px;
 }
-#menu{
+.menu{
     width: 990px;
+    display: flex;
+    justify-content:space-around;
+    padding-left: 40px;
+    padding-right: 42px;
 }
 
 .kare img{
-    max-width: 200px;
-    margin-left: 18px;
-    margin-right: 10px;
-    width:315px;
+    max-width: 250px;
     margin-bottom :8px;
 }
-.ramen img{
-    max-width: 200px;
-    margin-left: 10px;
-    margin-right: 10px;
+.ramen1 img{
+    max-width: 250px;
     width:315px;
-    margin-bottom: 9px;
 }
-.hatsumabusi img{
-    max-width: 200px;
-    margin-left: 5px;
-    margin-right: 10px;
+.hatsumabusi1 img{
+    max-width: 270px;
     width: 315px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+
 }
 .bottom img{
     padding:11px;
     margin-left: 20px;
     margin-bottom:10px;
 }
-.block-menu1{
+#block-menu1{
     background-image: url(img/block2.png);
     background-size: cover;
     max-width: 990px;
     height: 820px;
     margin: auto;
+    margin-top: 5px;
 }
-.block-menu2{
+#block-menu2{
     background-image: url(img/block3.png);
-    background-size: 1010;
+    background-size: cover;
     max-width: 990px;
-    height: 928px;
+    height: 920px;
     margin: auto;
-    margin-left: -1px;
-    background-repeat: no-repeat;
-}
-.block-menu3{
+    margin-top: -15px;
+} 
+#block-menu3{
     background-image: url(img/block4.png);
-    background-size: 1010px;
+    background-size: cover;
     max-width: 990px;
-    height: 910px;
+    height: 865px;
     margin: auto;
+    margin-top: -100px;
 }
-#menu-makanan{
-    max-width: 990px;
+.button-grup {
+    display: flex;
+    font-size: 18px;
+    font-family: 'Noto Serif JP', serif;
+    justify-content: space-around;
+    width: 90%;
+    margin:0;
+    width: 20px 20px;
+}
+.button-grup a {
+    color: #fff;
+    display: flex;
+    padding: 20px;
+}
+.bottom1{
+    font-size: 18px;
+    background-image: linear-gradient(to top, #d7622e, #f9d900);
+    text-decoration: none;
+    border-radius: 60px;
+    height:70px;
+}
+.bottom2{
+    font-size: 18px;
+    background-image: linear-gradient(to top, #d7622e, #f9d900);
+    text-decoration: none;
+    border-radius: 60px;
+}
+.bottom3{
+    font-size: 18px;
+    background-image: linear-gradient(to top, #d7622e, #f9d900);
+    text-decoration: none;
+    border-radius: 60px;
+}
+.button-grup{
+    background-image: url(img/block1.png);
+    height: auto;
+    background-repeat: no-repeat;
+    padding: 140px 15px;
+    margin-left: 50px;
+}
+.kare1 img {
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 55px;
+    justify-content: space-between;
+}
+.t-ramen img{
+    width: 240px;
+    margin-top: 270px;
+    margin-left: 70px;
+}
+.hatsubusi img{
+    width: 250px;
+    margin-top: 335px;
+    margin-left: 75px;
+}
+.tulisan1 img{
+    width: 240px;
+    margin-top: 30px;
+    margin-left: 400px;
 }
 .kare2 img{
-    max-width: 280px;
-    padding:30px;
-    margin-top:255px;
-    margin-left:20px;
+    width: 240px;
+    margin-top: 210px;
+    margin-left: 50px;
 }
-.bottom{
-    justify-items: center;
+.tulisan2 img{
+    width: 240px;
+    margin-top: 30px;
+    margin-left: 400px;
 }
-#bottom {
-    background-image: url(img/block1.png);
-    max-width: 990px;
-    padding: 180px 300px;
-    background-repeat: no-repeat;
-    background-position: center;
+.ramen2 img{
+    width: 240px;
+    margin-top: 210px;
+    margin-left: 66px;
+}
+.tulisan3 img{
+    width: 240px;
+    margin-top: 55px;
+    margin-left: 400px;
+}
+.hatsubusi2 img{
+    width: 240px;
+    margin-top: 250px;
+    margin-left: 80px;
+}
+.deskripsi1 p{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 24px;
+    margin-top: -450px;
+    margin-left: 90px;
+    padding: 200px 250px 200px 300px;
 }
