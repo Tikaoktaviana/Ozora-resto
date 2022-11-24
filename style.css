@@ -37,22 +37,22 @@ body{
 }
 
 .kare img{
-    max-width: 280px;
+    max-width: 200px;
     margin-left: 18px;
     margin-right: 10px;
     width:315px;
     margin-bottom :8px;
 }
 .ramen img{
-    max-width: 280px;
+    max-width: 200px;
     margin-left: 10px;
     margin-right: 10px;
     width:315px;
     margin-bottom: 9px;
 }
 .hatsumabusi img{
-    max-width: 300px;
-    margin-left: 34px;
+    max-width: 200px;
+    margin-left: 5px;
     margin-right: 10px;
     width: 315px;
     margin-bottom: 20px;
@@ -76,6 +76,7 @@ body{
     height: 928px;
     margin: auto;
     margin-left: -1px;
+    background-repeat: no-repeat;
 }
 .block-menu3{
     background-image: url(img/block4.png);
@@ -93,6 +94,13 @@ body{
     margin-top:255px;
     margin-left:20px;
 }
-.kare-t img{
-   
+.bottom{
+    justify-items: center;
+}
+#bottom {
+    background-image: url(img/block1.png);
+    max-width: 990px;
+    padding: 180px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
