@@ -50,11 +50,12 @@ body{
 .ramen1 img{
     max-width: 250px;
     width:315px;
+    margin-top: 20px;
 }
 .hatsumabusi1 img{
     max-width: 270px;
     width: 315px;
-    margin-top: 20px;
+    margin-top: 15px;
 
 }
 .bottom img{
@@ -68,23 +69,23 @@ body{
     max-width: 990px;
     height: 820px;
     margin: auto;
-    margin-top: 5px;
+    margin-top: -60px;
 }
 #block-menu2{
     background-image: url(img/block3.png);
     background-size: cover;
     max-width: 990px;
-    height: 920px;
+    height: 800px;
     margin: auto;
-    margin-top: -15px;
+    margin-top: -55px;
 } 
 #block-menu3{
     background-image: url(img/block4.png);
     background-size: cover;
     max-width: 990px;
-    height: 865px;
+    height: 890px;
     margin: auto;
-    margin-top: -100px;
+    margin-top: 85px;
 }
 .button-grup {
     display: flex;
@@ -93,38 +94,29 @@ body{
     justify-content: space-around;
     width: 90%;
     margin:0;
-    width: 20px 20px;
 }
 .button-grup a {
     color: #fff;
-    display: flex;
-    padding: 20px;
+    padding: 10px 100px 100px ;
+    justify-content:space-between;
 }
 .bottom1{
-    font-size: 18px;
-    background-image: linear-gradient(to top, #d7622e, #f9d900);
-    text-decoration: none;
-    border-radius: 60px;
-    height:70px;
+    background-image:url(/img/bottom.png);
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    margin-top: -55px;
+    padding:10px ;
+    justify-content: space-between;
+    background-position: center;
 }
-.bottom2{
-    font-size: 18px;
-    background-image: linear-gradient(to top, #d7622e, #f9d900);
-    text-decoration: none;
-    border-radius: 60px;
-}
-.bottom3{
-    font-size: 18px;
-    background-image: linear-gradient(to top, #d7622e, #f9d900);
-    text-decoration: none;
-    border-radius: 60px;
-}
+
 .button-grup{
     background-image: url(img/block1.png);
-    height: auto;
     background-repeat: no-repeat;
-    padding: 140px 15px;
     margin-left: 50px;
+    padding: 200px 10px;
+    margin-top: 20px;
+
 }
 .kare1 img {
     width: 250px;
@@ -144,7 +136,7 @@ body{
 }
 .tulisan1 img{
     width: 240px;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-left: 400px;
 }
 .kare2 img{
@@ -154,8 +146,9 @@ body{
 }
 .tulisan2 img{
     width: 240px;
-    margin-top: 30px;
-    margin-left: 400px;
+    margin-top: 35px;
+    margin-left: 360px;
+    height: auto;
 }
 .ramen2 img{
     width: 240px;
@@ -183,7 +176,7 @@ body{
 .deskripsi2 p{
     font-family: 'Noto Serif JP', serif;
     font-size: 24px;
-    margin-top: -230px;
+    margin-top: -620px;
     margin-left: 350px;
     width:528px;
     height: 400px;
@@ -191,7 +184,7 @@ body{
 .deskripsi3 p{
     font-family: 'Noto Serif JP', serif;
     font-size: 24px;
-    margin-top: -200px;
+    margin-top: -190px;
     margin-left: 360px;
     width:528px;
     height: 400px;
@@ -206,13 +199,18 @@ body{
     max-width: 990px;
     display: flex;
     justify-content: center;
-    margin-top: -125px;
+    margin-top: -115px;
 }
 .deskripsi-bwh{
     font-family: 'Noto Serif JP', serif;
-    font-size: 33px;
+    font-size: 40px;
     margin: 40px;
     padding-left: 40px;
-    margin-top: 5px;
-    margin-left: 70px;
+    margin-top: 20px;
+    margin-left: 60px;
+    color: #bc361c;
+}
+.daun img{
+    margin-top: 120px;
+    display: flex;
 }
