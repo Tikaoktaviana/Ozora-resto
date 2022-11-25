@@ -175,7 +175,43 @@ body{
 .deskripsi1 p{
     font-family: 'Noto Serif JP', serif;
     font-size: 24px;
-    margin-top: -450px;
-    margin-left: 90px;
-    padding: 200px 250px 200px 300px;
+    margin-top: -230px;
+    margin-left: 350px;
+    width:528px;
+    height: 400px;
+}
+.deskripsi2 p{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 24px;
+    margin-top: -230px;
+    margin-left: 350px;
+    width:528px;
+    height: 400px;
+}
+.deskripsi3 p{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 24px;
+    margin-top: -200px;
+    margin-left: 360px;
+    width:528px;
+    height: 400px;
+}
+#banner-bwh{
+    min-height: 547px;
+    position: relative;
+    align-items: center;
+    justify-content: end;
+}
+.kotak-putih{
+    max-width: 990px;
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+}
+.deskripsi-bwh{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 30px;
+    margin: 40px;
+    padding-left: 40px;
+    margin-top: -10px;
 }
