@@ -27,7 +27,7 @@ body{
     margin-bottom: 60px;
 }
 .banner-top{
-    background-image: url(img/banner-top.png);
+    background-image: url(img/banner1.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 100px;
@@ -41,6 +41,8 @@ body{
     justify-content:space-around;
     padding-left: 40px;
     padding-right: 42px;
+    margin-top: 10px;
+
 }
 
 .kare img{
@@ -58,18 +60,13 @@ body{
     margin-top: 15px;
 
 }
-.bottom img{
-    padding:11px;
-    margin-left: 20px;
-    margin-bottom:10px;
-}
 #block-menu1{
     background-image: url(img/block2.png);
     background-size: cover;
     max-width: 990px;
     height: 820px;
     margin: auto;
-    margin-top: -60px;
+    margin-top: -290px;
 }
 #block-menu2{
     background-image: url(img/block3.png);
@@ -77,7 +74,7 @@ body{
     max-width: 990px;
     height: 800px;
     margin: auto;
-    margin-top: -55px;
+    margin-top: -70px;
 } 
 #block-menu3{
     background-image: url(img/block4.png);
@@ -85,75 +82,76 @@ body{
     max-width: 990px;
     height: 890px;
     margin: auto;
-    margin-top: 85px;
+    margin-top: -80px;
 }
+
 .button-grup {
+    background-image: url(/img/block1.png);
     display: flex;
-    font-size: 18px;
-    font-family: 'Noto Serif JP', serif;
     justify-content: space-around;
-    width: 90%;
-    margin:0;
-}
-.button-grup a {
-    color: #fff;
-    padding: 10px 100px 100px ;
-    justify-content:space-between;
-}
-.bottom1{
-    background-image:url(/img/bottom.png);
-    justify-content: space-between;
+    max-width: 960px;
+    height: 880px;
     background-repeat: no-repeat;
-    margin-top: -55px;
-    padding:10px ;
-    justify-content: space-between;
     background-position: center;
-}
+    margin-top: -250px;
+    padding: 400px;
+    margin-left: 15px;
 
-.button-grup{
-    background-image: url(img/block1.png);
-    background-repeat: no-repeat;
-    margin-left: 50px;
-    padding: 200px 10px;
-    margin-top: 20px;
 
 }
+.bottom a{
+    position: center;
+    margin: 10px 20px;
+}
+
 .kare1 img {
     width: 250px;
     margin-top: 10px;
-    margin-left: 55px;
-    justify-content: space-between;
+    margin-left: -25px;
 }
-.t-ramen img{
+.ramen1 img{
     width: 240px;
-    margin-top: 270px;
-    margin-left: 70px;
+    margin-top: 20px;
+    margin-left: -20px;
 }
-.hatsubusi img{
+.hatsumabusi1 img{
     width: 250px;
-    margin-top: 335px;
-    margin-left: 75px;
+    margin-top: 40px;
+    margin-left: -20px;
 }
 .tulisan1 img{
     width: 240px;
-    margin-top: 35px;
-    margin-left: 400px;
+    margin-top: 30px;
+    margin-left: 390px;
 }
 .kare2 img{
     width: 240px;
-    margin-top: 210px;
-    margin-left: 50px;
+    margin-top: 180px;
+    margin-left: 55px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.kare2 img:hover, .kare2 img:focus, .kare2 img:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+}
+
+.kare2:hover{
+    transform: scale(1.1);
 }
 .tulisan2 img{
     width: 240px;
     margin-top: 35px;
-    margin-left: 360px;
-    height: auto;
+    margin-left: 380px;
 }
 .ramen2 img{
     width: 240px;
-    margin-top: 210px;
-    margin-left: 66px;
+    margin-top: 190px;
+    margin-left: 50px;
 }
 .tulisan3 img{
     width: 240px;
@@ -163,7 +161,7 @@ body{
 .hatsubusi2 img{
     width: 240px;
     margin-top: 250px;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 .deskripsi1 p{
     font-family: 'Noto Serif JP', serif;
@@ -176,7 +174,7 @@ body{
 .deskripsi2 p{
     font-family: 'Noto Serif JP', serif;
     font-size: 24px;
-    margin-top: -620px;
+    margin-top: -180px;
     margin-left: 350px;
     width:528px;
     height: 400px;
@@ -203,14 +201,33 @@ body{
 }
 .deskripsi-bwh{
     font-family: 'Noto Serif JP', serif;
-    font-size: 40px;
+    font-size: 45px;
     margin: 40px;
     padding-left: 40px;
     margin-top: 20px;
     margin-left: 60px;
     color: #bc361c;
 }
-.daun img{
-    margin-top: 120px;
-    display: flex;
+.deskripsi-bwh2{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 38px;
+    margin: 40px;
+    padding-left: 40px;
+    margin-top: -10px;
+    margin-left: -30px;
+    color: #bc361c;
+
+}
+.bottom1{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.bottom2{
+    margin-right: 10px;
+}
+.bottom3{
+    margin-right: 10px;
+}
+.daun{
+    max-width: 20px;
 }
