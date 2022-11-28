@@ -41,13 +41,14 @@ body{
     justify-content:space-around;
     padding-left: 40px;
     padding-right: 42px;
-    margin-top: 10px;
+    margin-top: -50px;
 
 }
 
-.kare img{
+.kare1 img{
     max-width: 250px;
-    margin-bottom :8px;
+    width:315px;
+    margin-top: 20px;
 }
 .ramen1 img{
     max-width: 250px;
@@ -74,7 +75,7 @@ body{
     max-width: 990px;
     height: 800px;
     margin: auto;
-    margin-top: -70px;
+    margin-top: -30px;
 } 
 #block-menu3{
     background-image: url(img/block4.png);
@@ -82,7 +83,7 @@ body{
     max-width: 990px;
     height: 890px;
     margin: auto;
-    margin-top: -80px;
+    margin-top: -110px;
 }
 
 .button-grup {
@@ -106,17 +107,17 @@ body{
 
 .kare1 img {
     width: 250px;
-    margin-top: 10px;
+    margin-top: -60px;
     margin-left: -25px;
 }
 .ramen1 img{
     width: 240px;
-    margin-top: 20px;
+    margin-top: -60px;
     margin-left: -20px;
 }
 .hatsumabusi1 img{
     width: 250px;
-    margin-top: 40px;
+    margin-top: -40px;
     margin-left: -20px;
 }
 .tulisan1 img{
@@ -144,24 +145,51 @@ body{
     transform: scale(1.1);
 }
 .tulisan2 img{
-    width: 240px;
+    width: 290px;
     margin-top: 35px;
-    margin-left: 380px;
+    margin-left: 350px;
 }
 .ramen2 img{
     width: 240px;
     margin-top: 190px;
     margin-left: 50px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.ramen2 img:hover, .ramen2 img:focus, .ramen2 img:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+}
+
+.ramen2:hover{
+    transform: scale(1.1);
 }
 .tulisan3 img{
     width: 240px;
-    margin-top: 55px;
+    margin-top: 60px;
     margin-left: 400px;
 }
 .hatsubusi2 img{
     width: 240px;
     margin-top: 250px;
     margin-left: 60px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.hatsubusi2 img:hover, .hatsubusi2 img:focus, .hatsubusi2 img:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+} 
+.hatsubusi2:hover{
+    transform: scale(1.1);
 }
 .deskripsi1 p{
     font-family: 'Noto Serif JP', serif;
@@ -201,19 +229,19 @@ body{
 }
 .deskripsi-bwh{
     font-family: 'Noto Serif JP', serif;
-    font-size: 45px;
+    font-size: 70px;
     margin: 40px;
     padding-left: 40px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 60px;
     color: #bc361c;
 }
 .deskripsi-bwh2{
     font-family: 'Noto Serif JP', serif;
-    font-size: 38px;
+    font-size: 40px;
     margin: 40px;
     padding-left: 40px;
-    margin-top: -10px;
+    margin-top: 10px;
     margin-left: -30px;
     color: #bc361c;
 
@@ -228,6 +256,7 @@ body{
 .bottom3{
     margin-right: 10px;
 }
-.daun{
-    max-width: 20px;
+.daun img{
+    max-width: 350px;
+    margin-top: -200px;
 }
