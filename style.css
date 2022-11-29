@@ -59,6 +59,7 @@ body{
     max-width: 270px;
     width: 315px;
     margin-top: 15px;
+    margin-left: -50px;
 
 }
 #block-menu1{
@@ -152,7 +153,7 @@ body{
 .ramen2 img{
     width: 240px;
     margin-top: 190px;
-    margin-left: 50px;
+    margin-left: 80px;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     -webkit-transition-duration: 0.3s;
@@ -176,7 +177,7 @@ body{
 .hatsubusi2 img{
     width: 240px;
     margin-top: 250px;
-    margin-left: 60px;
+    margin-left: 80px;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     -webkit-transition-duration: 0.3s;
@@ -187,33 +188,40 @@ body{
 .hatsubusi2 img:hover, .hatsubusi2 img:focus, .hatsubusi2 img:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1); 
+    position:center;
 } 
 .hatsubusi2:hover{
     transform: scale(1.1);
 }
+.deskripsi1{
+    margin-top: -240px;
+    margin-left: 30px;
+}
 .deskripsi1 p{
     font-family: 'Noto Serif JP', serif;
     font-size: 24px;
-    margin-top: -230px;
-    margin-left: 350px;
-    width:528px;
-    height: 400px;
+    margin-left: 330px;
+    margin-top: 5px;
+}
+.deskripsi2{
+    margin-top: -240px;
+    margin-left: 30px;
 }
 .deskripsi2 p{
     font-family: 'Noto Serif JP', serif;
     font-size: 24px;
-    margin-top: -180px;
-    margin-left: 350px;
-    width:528px;
-    height: 400px;
+    margin-left: 330px;
+    margin-top: 5px;
+}
+.deskripsi3{
+    margin-top: -200px;
+    margin-left: 40px;
 }
 .deskripsi3 p{
     font-family: 'Noto Serif JP', serif;
     font-size: 24px;
-    margin-top: -190px;
-    margin-left: 360px;
-    width:528px;
-    height: 400px;
+    margin-left: 330px;
+    margin-top: 5px;
 }
 #banner-bwh{
     min-height: 547px;
