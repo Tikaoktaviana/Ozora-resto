@@ -19,18 +19,27 @@ body{
     max-width: 990px; min-width: 990px;
     max-height: 4000px; min-height: 4000px;
     background-repeat: no-repeat;
+    box-shadow: 3px 0 38px rgba(158, 122, 77, 1)  ; 
+	-webkit-box-shadow: 3px 0 38px rgba(158, 122, 77, 1)  ; 
+	-moz-box-shadow: 3px 0 38px rgba(158, 122, 77, 1)  ; ;
 }
 .banner-top img{
     background-position: center;
-    padding: 100px 80px 100px 70px;
-    margin-top: 90px;
-    margin-bottom: 60px;
+    /* padding: 100px 80px 100px 70px; */
+    margin-top: 132px;
+    margin-bottom: 124px;
+    display: block;
+    width: 100%;
 }
 .banner-top{
-    background-image: url(img/banner1.png);
+    background-image: url(./img/coba.png);
     background-repeat: no-repeat;
     background-position: center;
+    width: 100%;
     padding: 100px;
+    max-width: 700px;
+    background-size: contain;
+    margin: 0 auto;
 }
 .banner-top-img-aki{
     padding: 100px;
@@ -84,7 +93,7 @@ body{
     max-width: 990px;
     height: 890px;
     margin: auto;
-    margin-top: -110px;
+    margin-top: -120px;
 }
 
 .button-grup {
@@ -128,8 +137,8 @@ body{
 }
 .kare2 img{
     width: 240px;
-    margin-top: 180px;
-    margin-left: 55px;
+    margin-top: 185px;
+    margin-left: 60px;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     -webkit-transition-duration: 0.3s;
@@ -214,7 +223,7 @@ body{
     margin-top: 5px;
 }
 .deskripsi3{
-    margin-top: -200px;
+    margin-top: -210px;
     margin-left: 40px;
 }
 .deskripsi3 p{
