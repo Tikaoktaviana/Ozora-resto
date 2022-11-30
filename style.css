@@ -12,8 +12,8 @@ body{
     margin: 0 auto;
     float:none;
     height: auto;
-
 }
+
 #background-top{
     background-image: url(img/background-top.png);
     max-width: 990px; min-width: 990px;
@@ -24,22 +24,19 @@ body{
 	-moz-box-shadow: 3px 0 38px rgba(158, 122, 77, 1)  ; ;
 }
 .banner-top img{
-    background-position: center;
-    /* padding: 100px 80px 100px 70px; */
-    margin-top: 132px;
-    margin-bottom: 124px;
+    margin-top: -132px;
     display: block;
-    width: 100%;
+    width:500px;
+    z-index: 1;
+    margin: 100px;
 }
 .banner-top{
-    background-image: url(./img/coba.png);
+    background-image: url(./img/atas.png);
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
-    padding: 100px;
-    max-width: 700px;
     background-size: contain;
-    margin: 0 auto;
+    padding:330px;
+
 }
 .banner-top-img-aki{
     padding: 100px;
@@ -276,4 +273,65 @@ body{
 .daun img{
     max-width: 350px;
     margin-top: -200px;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    background-repeat: no-repeat; 
+    background-size: contain; 
+
+}
+.anim span{
+    display: inline-block;
+    height: 100%;
+    width: 75px;
+    margin: -280px 40px 54px  -34px;
+    background:url("http://premiumcoding.com/CSSTricks/fallingLeaves/leaf.png");
+    animation: anim 10s infinite  linear;
+}
+.anim span:nth-child(7h) {
+    animation-delay: 2.5s;
+}
+.anim span:nth-child(7n-1) {
+    animation-delay: 1.0s;
+}
+.anim span:nth-child(7n-2) {
+    animation-delay: 3.5s;javascript:void(0);
+}
+.anim span:nth-child(7n-3) {
+    animation-delay: 5.0s;
+}
+.anim span:nth-child(7n-4) {
+    animation-delay: 1.5s;
+}
+.anim span:nth-child(7n-5) {
+    animation-delay: 7.0s;
+}
+.anim span:nth-child(7n-6) {
+    animation-delay: 9.5s;
+}
+
+@keyframes anim{
+    0% {
+        width: 75px;
+        height: 75px;
+        opacity: 1;                    
+        transform: translate(0, 0px) rotateZ(0deg);
+    }
+    75% {
+        width: 75px;
+        height: 75px;
+        opacity: 1;
+        transform: translate(100px, 900px) rotateZ(270deg); 
+    }
+    100% {
+        width: 75px;
+        height: 75px;
+        opacity: 0;                   
+        transform: translate(150px, 900px) rotateZ(360deg);
+    }
 }
