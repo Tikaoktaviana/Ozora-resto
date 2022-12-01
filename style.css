@@ -296,9 +296,9 @@ body{
     display: inline-block;
     height: 100%;
     width: 100%;
-    padding:70px;
+    padding:55px;
     margin: -280px 40px 54px  -34px;
-    background: url("./img/leaf1.png");
+    background: url("./img/tes.png");
     animation: anim 10s linear infinite ;
     z-index:-1;
 }
