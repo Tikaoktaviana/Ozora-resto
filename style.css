@@ -6,12 +6,14 @@
     box-sizing: border-box;
 }
 body{
+    background-color: rgb(130, 115, 59);
     font-family: 'Noto Serif JP', serif;
     font-size:18px;
     max-width: 990px;
     margin: 0 auto;
     float:none;
     height: auto;
+    margin-top: 20px;
 }
 
 #background-top{
@@ -22,6 +24,10 @@ body{
     box-shadow: 3px 0 38px rgba(158, 122, 77, 1)  ; 
 	-webkit-box-shadow: 3px 0 38px rgba(158, 122, 77, 1)  ; 
 	-moz-box-shadow: 3px 0 38px rgba(158, 122, 77, 1)  ; ;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 5;
 }
 .banner-top img{
     margin-top: -132px;
@@ -280,18 +286,21 @@ body{
     position: absolute;
     top: 0%;
     left: 0%;
-    right: 0%;
     background-repeat: no-repeat; 
     background-size: contain; 
+    z-index: -1;
 
-}
+}   
+
 .anim span{
     display: inline-block;
     height: 100%;
-    width: 75px;
+    width: 100%;
+    padding:55px;
     margin: -280px 40px 54px  -34px;
-    background:url("http://premiumcoding.com/CSSTricks/fallingLeaves/leaf.png");
-    animation: anim 10s infinite  linear;
+    background: url("img/leaf3.png");
+    animation: anim 10s linear infinite ;
+    z-index:-1;
 }
 .anim span:nth-child(7h) {
     animation-delay: 2.5s;
@@ -326,12 +335,12 @@ body{
         width: 75px;
         height: 75px;
         opacity: 1;
-        transform: translate(100px, 900px) rotateZ(270deg); 
+        transform: translate(100px, 3600px) rotateZ(270deg); 
     }
     100% {
         width: 75px;
         height: 75px;
         opacity: 0;                   
-        transform: translate(150px, 900px) rotateZ(360deg);
+        transform: translate(150px, 4000px) rotateZ(360deg);
     }
 }
