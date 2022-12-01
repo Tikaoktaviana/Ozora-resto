@@ -6,14 +6,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(130, 115, 59);
+    background-color: rgb(255, 250, 233);
     font-family: 'Noto Serif JP', serif;
     font-size:18px;
     max-width: 990px;
     margin: 0 auto;
     float:none;
     height: auto;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #background-top{
@@ -296,9 +296,9 @@ body{
     display: inline-block;
     height: 100%;
     width: 100%;
-    padding:55px;
+    padding:70px;
     margin: -280px 40px 54px  -34px;
-    background: url("img/leaf3.png");
+    background: url("./img/leaf1.png");
     animation: anim 10s linear infinite ;
     z-index:-1;
 }
@@ -329,7 +329,7 @@ body{
         width: 75px;
         height: 75px;
         opacity: 1;                    
-        transform: translate(0, 0px) rotateZ(0deg);
+        transform: translate(0, 0px) rotateZ(40deg);
     }
     75% {
         width: 75px;
