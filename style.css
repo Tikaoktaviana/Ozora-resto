@@ -302,7 +302,7 @@ body{
     display: inline-block;
     height: 100%;
     width: 100%;
-    padding:64px;
+    padding:58px;
     margin: -280px 40px 54px  -34px;
     background: url("./img/leaf1.png");
     animation: anim 10s linear infinite ;
